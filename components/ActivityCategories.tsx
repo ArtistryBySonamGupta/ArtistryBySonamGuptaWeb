@@ -129,7 +129,7 @@ const ActivityCategories: React.FC<ActivityCategoriesProps> = ({ onCategoryClick
            {/* VIEW FULL MENU BUTTON */}
            <div className="mt-16 text-center">
               <a
-                href="https://drive.google.com/file/d/1DLBrLth6vwgWY8tFyp4gRqRHYVpmDD1U/view?usp=sharing"
+                href="https://drive.google.com/file/d/1u2MsM6fplcObG9sMjOc7TD0CXQ7XtdnX/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="cursor-pointer group inline-flex items-center gap-3 sm:gap-4 bg-white px-6 sm:px-12 py-4 sm:py-6 rounded-full border-2 border-art-text shadow-quirky hover:shadow-quirky-hover hover:-translate-y-1 transition-all"

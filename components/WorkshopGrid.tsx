@@ -415,7 +415,7 @@ const WorkshopGrid: React.FC<WorkshopGridProps> = ({ category, onBack, onViewWor
                         {(category === Category.KIDS || category === Category.RESIN) && (
                             <div className="mb-8 md:mb-10">
                                 <a
-                                    href="https://drive.google.com/file/d/1DLBrLth6vwgWY8tFyp4gRqRHYVpmDD1U/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/1u2MsM6fplcObG9sMjOc7TD0CXQ7XtdnX/view?usp=sharing"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="inline-flex items-center gap-3 rounded-full border-2 border-art-text bg-white px-5 py-3 font-quirky text-xs md:text-sm font-bold uppercase tracking-[0.18em] text-art-text shadow-quirky transition-all duration-300 hover:-translate-y-1 hover:shadow-quirky-hover"
@@ -635,7 +635,7 @@ const WorkshopGrid: React.FC<WorkshopGridProps> = ({ category, onBack, onViewWor
                         </div>
                         <div className="flex flex-wrap items-center justify-center gap-3 md:gap-4">
                             <a
-                                href="https://drive.google.com/file/d/1DLBrLth6vwgWY8tFyp4gRqRHYVpmDD1U/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1u2MsM6fplcObG9sMjOc7TD0CXQ7XtdnX/view?usp=sharing"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="group inline-flex items-center gap-3 sm:gap-4 rounded-full border-2 border-art-text bg-[#FFF1CC] px-6 sm:px-10 py-4 sm:py-5 shadow-quirky transition-all duration-300 hover:-translate-y-1 hover:shadow-quirky-hover"

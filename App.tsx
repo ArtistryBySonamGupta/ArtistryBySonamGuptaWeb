@@ -53,7 +53,7 @@ const HomePage: React.FC<{ onCategoryClick: (category: Category) => void }> = ({
   <>
     <Hero
       onCtaClick={() => document.getElementById('quote')?.scrollIntoView({ behavior: 'smooth' })}
-      onExploreClick={() => document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' })}
+      onExploreClick={() => window.open('https://drive.google.com/file/d/1u2MsM6fplcObG9sMjOc7TD0CXQ7XtdnX/view?usp=sharing', '_blank', 'noopener,noreferrer')}
     />
     <ActivityCategories onCategoryClick={onCategoryClick} />
     <Gallery />
