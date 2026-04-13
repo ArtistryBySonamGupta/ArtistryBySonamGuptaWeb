@@ -241,6 +241,7 @@ const QuoteForm: React.FC = () => {
                 <option value="Kids Art Party">Kids Art Party</option>
                 <option value="Resin Workshop">Resin Workshop</option>
                 <option value="Corporate Event">Corporate Event</option>
+                <option value="Other">Other</option>
               </select>
             </div>
             <span> for roughly </span>
