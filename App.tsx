@@ -150,7 +150,7 @@ const App: React.FC = () => {
         target="_blank"
         rel="noreferrer"
         aria-label="Contact on WhatsApp"
-        className="fixed right-6 bottom-6 z-[60] w-14 h-14 rounded-full bg-[#25D366] shadow-lg border-2 border-white flex items-center justify-center hover:scale-110 transition-transform"
+        className="fixed right-6 bottom-6 md:bottom-12 z-[60] w-14 h-14 rounded-full bg-[#25D366] shadow-lg border-2 border-white flex items-center justify-center hover:scale-110 transition-transform"
       >
         <svg viewBox="0 0 32 32" className="w-8 h-8 fill-white" aria-hidden="true">
           <path d="M19.11 17.2c-.26-.13-1.52-.75-1.75-.83-.23-.09-.4-.13-.57.13-.17.26-.65.83-.8 1-.15.17-.3.2-.56.07-.26-.13-1.1-.4-2.1-1.28-.78-.69-1.3-1.54-1.45-1.8-.15-.26-.02-.4.11-.53.12-.12.26-.3.39-.45.13-.15.17-.26.26-.43.09-.17.04-.33-.02-.46-.07-.13-.57-1.38-.79-1.89-.21-.5-.42-.43-.57-.44h-.49c-.17 0-.46.06-.7.33-.24.26-.92.9-.92 2.2 0 1.3.94 2.56 1.07 2.73.13.17 1.84 2.8 4.46 3.93.62.27 1.1.43 1.48.55.62.2 1.19.17 1.64.1.5-.08 1.52-.62 1.74-1.21.22-.59.22-1.1.15-1.2-.06-.1-.23-.17-.49-.3z" />

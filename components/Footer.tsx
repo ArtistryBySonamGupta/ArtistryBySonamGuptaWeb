@@ -9,7 +9,7 @@ interface FooterProps {
 const Footer: React.FC<FooterProps> = ({ showContactInfo = true }) => {
   return (
     <footer id="contact" className="bg-art-text text-white pt-14 md:pt-20 pb-10 border-t border-white/10 relative z-50">
-       <div className="w-full max-w-[98rem] mx-auto px-4 md:px-8 lg:px-8">
+       <div className="w-full px-4 md:px-8 lg:px-8">
           
           <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-12 mb-12 md:mb-20">
               <div className="max-w-md">
@@ -52,7 +52,8 @@ const Footer: React.FC<FooterProps> = ({ showContactInfo = true }) => {
               </div>
           </div>
 
-          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-center md:text-left text-sm text-white/70 font-sans">
+          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-3 text-center md:text-left text-sm text-white/70 font-sans">
+             <span className="font-quirky font-bold uppercase tracking-[0.18em] text-white">Developed by Buildit</span>
              <span>&copy; {new Date().getFullYear()} Artistry by Sonam Gupta. All rights reserved.</span>
           </div>
        </div>
